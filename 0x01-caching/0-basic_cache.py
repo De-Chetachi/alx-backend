@@ -9,3 +9,6 @@ class BasicCache(BaseCaching):
     with a max-itmes and cache_data field
     methods like print cache, get to retrieve a cacheitem based on key
     a put method to add data to the cache_data'''
+    def __init__(self):
+        '''initializer'''
+        super().__init__()
